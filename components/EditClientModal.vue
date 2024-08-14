@@ -8,7 +8,7 @@ const newValue = ref(client.name);
 const { add: addToast } = useToast();
 const { close: closeModal } = useModal();
 
-
+const { refresh } = useGetClients();
 
 async function submit() {
   try {
@@ -19,6 +19,7 @@ async function submit() {
     });
 
     // Step 2: refresh the values
+    await refresh();
 
     // Step 3: close the modal
     await closeModal();
