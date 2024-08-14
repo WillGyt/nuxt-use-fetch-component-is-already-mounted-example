@@ -2,7 +2,7 @@
 
 ## Watch this video first
 
-This example accompanies this video
+[![Video thumbnail](http://img.youtube.com/vi/hF6IquXK8e0/0.jpg)](http://www.youtube.com/watch?v=hF6IquXK8e0 'What does this message mean in Nuxt ? (useFetch)')
 
 ## How to run this example
 
